@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StockX Receipt Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>StockX Receipt Generator</h1>
+    <form id="receiptForm">
+      <input type="text" id="product" placeholder="Product Name or SKU" required />
+      <input type="text" id="size" placeholder="Size (e.g. US 9 / UK 8)" required />
+      <input type="text" id="orderNum" placeholder="Order Number" required />
+      <input type="number" id="price" placeholder="Purchase Price (£)" required />
+      <input type="number" id="processing" placeholder="Processing Fee (£)" required />
+      <input type="number" id="shipping" placeholder="Shipping Fee (£)" required />
+      <input type="date" id="orderDate" required />
+      <button type="submit">Generate Receipt</button>
+    </form>
+  </div>
+
+  <div class="receipt-container" id="receipt" style="display:none;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

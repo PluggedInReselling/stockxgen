@@ -1,0 +1,53 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.receipt-container {
+  background: #fff;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.status {
+  background: #005e2c;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.status span {
+  display: block;
+  margin: 5px 0;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.summary {
+  margin-top: 10px;
+}
